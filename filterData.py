@@ -5,8 +5,8 @@ import os
 #Filter metadata based on classes (squat, deadlifting, bench pressing)
 
 def filter_data():
-    train_annotations = pd.read_csv(r'kinetics-dataset\k700-2020\annotations\train.csv')
-    val_annotations = pd.read_csv(r'kinetics-dataset\k700-2020\annotations\val.csv')
+    train_annotations = pd.read_csv(r'k700-2020\annotations\train.csv')
+    val_annotations = pd.read_csv(r'k700-2020\annotations\val.csv')
 
     classes = ['squat', 'deadlifting', 'bench pressing']
 
