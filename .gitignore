@@ -1,7 +1,8 @@
+# Models
+mp-model/
+
+# Datasets
 frames/
-
 kinetics-dataset/
-
 k700-2020/
-
 k700-2020_targz/
