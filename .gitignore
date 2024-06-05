@@ -2,6 +2,8 @@
 mp-model/
 
 # Datasets
+sample-frames/
+sample-frames-squats/
 frames/
 cleaned_frames/
 kinetics-dataset/
