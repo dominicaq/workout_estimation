@@ -8,5 +8,8 @@ kinetics-dataset/
 k700-2020/
 k700-2020_targz/
 
+# Exclude folders postfixed with _data
+datasets/*_data/
+
 # Editor
 .vscode/
