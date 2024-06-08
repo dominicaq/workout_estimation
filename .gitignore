@@ -1,5 +1,6 @@
 # Models
 mp-model/
+model.pth
 
 # Datasets
 sample-frames/
