@@ -1,0 +1,17 @@
+# Models
+mp-model/
+
+# Datasets
+cleaned_frames/
+frames/
+k700-2020/
+k700-2020_targz/
+sample-frames/
+sample-frames-squats/
+kinetics-dataset/
+
+# Exclude folders postfixed with _data
+datasets/*_data/
+
+# Editor
+.vscode/

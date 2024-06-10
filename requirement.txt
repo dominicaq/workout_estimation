@@ -1,5 +1,8 @@
 argparse
-numpy
-pandas
+matplotlib
 mediapipe
+numpy
+opencv-python
+pandas
 torch
+torchvision
