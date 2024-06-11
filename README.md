@@ -37,10 +37,15 @@ Our first model approach, detailed in `Exercise_Correctness_Using_CNN.ipynb`, wa
 
 Our second model approach, `Exercise_Classification_Using_NN.ipynb`, is purely an exercise classification model for squats, deadlifts, and push-ups. We decided to use keypoints because they capture only the essential information needed for our task while removing irrelevant information. Furthermore, processing keypoints is less computationally expensive. The model classifies exercises with great accuracy; however, it doesn't provide correctness information.
 
-Our final approach, and the one chosen for this project, `Multi-variable_Exercise_Classification.ipynb`, creates a multi-variable model that not only classifies the exercise type but also provides information about the type of movement (extension, flexion, other) and correctness (correct, incorrect). We achieved **88.8% exercise classification accuracy**, **78.3% movement classification accuracy**, and **83.5% correctness classification accuracy**. The model can be found in `model/exercise_model.pth`. To test this model, go to [Running the Script for Testing](#running-the-script-for-testing).
+Our final approach and the one of choice for this project, `Multi-variable_Exercise_Classification.ipynb`, creates a multi-variable model that not only classifies the exercise type, but it also provides information about type of movement (extension, flexion, other) and correctness (correct, incorrect). We achieved **88.8% exercise classification accuracy**, **78.3% movement classification accuracy**, and **83.5% correctness classification accuracy**. The model can be found in `model\exercise_model.pth`. o test this model, go to [Running the script for testing](#running-the-script-for-testing).
 
-## Contributors
+## Contributions
 
-- **Dominic Quintero** - [daqquintero@ucdavis.edu](mailto:daqquintero@ucdavis.edu)
-- **Billy Ouattara** - [btouattara@ucdavis.edu](mailto:btouattara@ucdavis.edu)
-- **Jose Gavidia** - [jgavidiapaz@ucdavis.edu](mailto:jgavidiapaz@ucdavis.edu)
+Jose Gavidia: Data Collection and preprocessing, Multi-variable exercise classification, annotate_images.ipynb
+jgavidiapaz@ucdavis.edu
+
+Billy Ouattara: Data Collection and preprocessing, Exercise correctness using CNN, main.py
+btouattara@ucdavis.edu
+
+Dominic Quintero: Data Collection and preprocessing, Exercise classification using NN, posedata_set.py
+daqquintero@ucdavis.edu
