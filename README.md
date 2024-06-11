@@ -1,10 +1,10 @@
-# workout_estimation
+# Workout Assistant
 Please use the requirement.txt to install the library dependencies for this
 project.
 
 ## Running the script for testing
 To run the script, format the command like the following:
-`python3 main.py "file_path/to/image/image_name.ext"`. 
+`python3 main.py "file_path/to/image/image_name.ext"`.
 
 ***Note:*** `.ext` is
 the extension of the image.
@@ -40,3 +40,14 @@ Our first model approach that you can find in `Exercise_Correctness_Using_CNN.ip
 Our second model approach, `Exercise_Classification_Using_NN.ipynb`, is purely an exercise classification model for squats, deadlifts, and push ups. We decided to use key points because they capture only the essential information needed for our task while removing irrelevant information. Furthermore, processing keypoints is less computationally expensive. The model classifies exercises with great accuracy, however, it doesn't provide correctness information.
 
 Our final approach and the one of choice for this project, `Multi-variable_Exercise_Classification.ipynb`, creates a multi-variable model that not only classifies the exercise type, but it also provides information about type of movement (extension, flexion, other) and correctness (correct, incorrect). We achieved **88.8% exercise classification accuracy**, **78.3% movement classification accuracy**, and **83.5% correctness classification accuracy**. The model can be found in `model\exercise_model.pth`. o test this model, go to [Running the script for testing](#running-the-script-for-testing).
+
+## Contributions
+
+Jose Gavidia: Multi-variable exercise classification, main.py
+jgavidiapaz@ucdavis.edu
+
+Billy Ouattara: Exercise correctness using CNN
+btouattara@ucdavis.edu
+
+Dominic Quintero: Exercise classification using NN, posedata_set.py
+daqquintero@ucdavis.edu
