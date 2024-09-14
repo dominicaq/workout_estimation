@@ -15,5 +15,4 @@ This list includes the core libraries we utilized to develop the project.
 - **ffmpeg**: For trimming and processing video files.
 
 ## Dataset Source
-- **[Kaggle Datasets](https://www.kaggle.com/)**: Used to obtain datasets for training and testing the model.
-- 
+- **[Kaggle Datasets](https://www.kaggle.com/)**: Used to obtain datasets for training and testing the model. 
